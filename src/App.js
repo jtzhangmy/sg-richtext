@@ -32,7 +32,7 @@ class RichText extends Component {
             type: 'pause',
             time: '2s',
         });
-        textList.splice(5, 0, {
+        textList.splice(50, 0, {
             key: Math.random(),
             type: 'speed',
             text: '好多倍',
@@ -68,6 +68,7 @@ class RichText extends Component {
         let { inputIdx, textList } = this.state;
         const { left, top } = target.getBoundingClientRect();
         const itemList = this.itemList;
+        const textListLen = textList.length;
         switch (keyCode) {
             case 8: // 删除 backspae
                 textList.splice(inputIdx - 1, 1);
@@ -82,7 +83,7 @@ class RichText extends Component {
                 break;
             case 35: // end
                 textList.push(...textList.splice(inputIdx, 1));
-                inputIdx = textList.length - 1;
+                inputIdx = textListLen - 1;
                 break;
 
             case 37: // 左
@@ -92,7 +93,7 @@ class RichText extends Component {
 
                 break;
             case 39: // 右
-                if (inputIdx + 1 >= textList.length) return; // 最尾部限制
+                if (inputIdx + 1 >= textListLen) return; // 最尾部限制
                 [textList[inputIdx], textList[inputIdx + 1]] = [textList[inputIdx + 1], textList[inputIdx]];
                 inputIdx++;
 
@@ -103,29 +104,36 @@ class RichText extends Component {
                     if (!item) continue;
                     const { left: itemLeft, top: itemTop } = item.getBoundingClientRect();
                     if (itemTop < top && itemLeft <= left) {
-                        const idx = i;
-                        textList.splice(idx, 0, ...textList.splice(inputIdx, 1));
-                        inputIdx = idx;
+                        [inputIdx, textList] = this.moveInput(i);
                         break;
                     }
                 }
                 break;
 
             case 40: // 下
+                let hasResult = false;
                 for (let i = 0, len = itemList.length; i < len; i++) {
                     const item = itemList[i];
                     if (!item) continue;
                     const { left: itemLeft, top: itemTop } = item.getBoundingClientRect();
-                    if (itemTop > top && itemLeft > left) {
-                        const idx = i - 1;
-                        textList.splice(idx, 0, ...textList.splice(inputIdx, 1));
-                        inputIdx = idx;
-                        break;
+                    if (itemTop > top) {
+                        if (itemLeft >= left - 20) {
+                            [inputIdx, textList] = this.moveInput(i);
+                            hasResult = true;
+                            break;
+                        }
                     }
                 }
-                break;
+                if (!hasResult) [inputIdx, textList] = this.moveInput(textListLen - 1);
         }
         this.setState({ inputIdx, textList });
+    }
+
+    // 移动光标
+    moveInput(idx) {
+        const { textList, inputIdx } = this.state;
+        textList.splice(idx, 0, ...textList.splice(inputIdx, 1));
+        return [idx, textList];
     }
 
     onInputChange(e) {
@@ -190,7 +198,6 @@ class RichText extends Component {
 
     render() {
         const { inputIdx, textList, composition, focus } = this.state;
-        console.error(focus);
         return (
             <div className='rich-text' ref={node => (this.richText = node)}>
                 {textList.map((item, idx) => {
