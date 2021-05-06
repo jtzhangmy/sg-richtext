@@ -10,7 +10,7 @@ class RichText extends Component {
             textList: [],
             inputIdx: -1,
             composition: false,
-          focus: false
+            focus: false,
         };
         this.inputRef = null;
         this.richText = null;
@@ -51,12 +51,9 @@ class RichText extends Component {
         const position = clientX - offsetLeft < offsetWidth / 2 ? 0 : 1;
 
         let { textList, inputIdx, focus } = this.state;
-        // textList = textList.filter(item => item.type !== 'input');
-      // TODO 元素前部单机光标跑偏
-      if (focus) {
-        textList.splice(inputIdx, 1)
-      }
-        const nextInputIdx = (idx > inputIdx ? idx -1 : idx) + position;
+        textList = textList.filter(item => item.type !== 'input');
+        if (focus) textList.splice(inputIdx, 1);
+        const nextInputIdx = (idx > inputIdx ? idx - 1 : idx) + position;
         textList.splice(nextInputIdx, 0, inputNode);
         this.setState({ inputIdx: nextInputIdx, textList, focus: true }, () => {
             this.inputRef.focus();
@@ -148,9 +145,9 @@ class RichText extends Component {
         }
     }
 
-  onInputBlur(){
-      this.setState({ focus: false })
-  }
+    onInputBlur() {
+        this.setState({ focus: false });
+    }
 
     // 输入法开始
     onInputCompositionStart(e) {
@@ -193,7 +190,7 @@ class RichText extends Component {
 
     render() {
         const { inputIdx, textList, composition, focus } = this.state;
-        console.error(focus)
+        console.error(focus);
         return (
             <div className='rich-text' ref={node => (this.richText = node)}>
                 {textList.map((item, idx) => {
