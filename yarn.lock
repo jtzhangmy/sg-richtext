@@ -1324,8 +1324,9 @@
   "version" "1.3.2"
 
 "@hapi/hoek@^8.3.0", "@hapi/hoek@8.x.x":
-  "resolved" "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.0.tgz"
-  "version" "8.5.0"
+  "integrity" "sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow=="
+  "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-8.5.1.tgz"
+  "version" "8.5.1"
 
 "@hapi/joi@^15.1.0":
   "resolved" "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.1.1.tgz"
@@ -1368,7 +1369,8 @@
     "slash" "^3.0.0"
 
 "@jest/core@^26.6.0", "@jest/core@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/@jest/core/-/core-26.6.3.tgz"
+  "integrity" "sha512-xvV1kKbhfUqFVuZ8Cyo+JPpipAHHAV3kcDBftiduK8EICXmTFddryy3P7NfZt8Pv37rA9nEJBKCCkglCPt/Xjw=="
+  "resolved" "https://registry.npmjs.org/@jest/core/-/core-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/console" "^26.6.2"
@@ -1429,7 +1431,8 @@
     "expect" "^26.6.2"
 
 "@jest/reporters@^26.6.2":
-  "resolved" "https://registry.yarnpkg.com/@jest/reporters/-/reporters-26.6.2.tgz"
+  "integrity" "sha512-h2bW53APG4HvkOnVMo8q3QXa6pcaNt1HkwVsOPMBV6LD/q9oSpxNSYZQYkAnjdMjrJ86UuYeLo+aEZClV6opnw=="
+  "resolved" "https://registry.npmjs.org/@jest/reporters/-/reporters-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
@@ -1478,7 +1481,8 @@
     "collect-v8-coverage" "^1.0.0"
 
 "@jest/test-sequencer@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/@jest/test-sequencer/-/test-sequencer-26.6.3.tgz"
+  "integrity" "sha512-YHlVIjP5nfEyjlrSr8t/YdNfU/1XEt7c5b4OxcXCjyRhjzLYu/rO69/WHPuYcbCWkz8kAeZVZp2N2+IOLLEPGw=="
+  "resolved" "https://registry.npmjs.org/@jest/test-sequencer/-/test-sequencer-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/test-result" "^26.6.2"
@@ -2189,17 +2193,14 @@
   "resolved" "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-7.2.0.tgz"
   "version" "7.2.0"
 
-"acorn@^6.0.0 || ^7.0.0 || ^8.0.0", "acorn@^7.1.1", "acorn@^7.4.0":
-  "resolved" "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz"
+"acorn@^6.0.0 || ^7.0.0 || ^8.0.0", "acorn@^7.1.0", "acorn@^7.1.1", "acorn@^7.4.0":
+  "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
+  "resolved" "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
   "version" "7.4.1"
 
 "acorn@^6.4.1":
   "resolved" "https://registry.yarnpkg.com/acorn/-/acorn-6.4.2.tgz"
   "version" "6.4.2"
-
-"acorn@^7.1.0":
-  "resolved" "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz"
-  "version" "7.1.0"
 
 "acorn@^8.1.0":
   "resolved" "https://registry.yarnpkg.com/acorn/-/acorn-8.2.2.tgz"
@@ -2795,9 +2796,10 @@
   "resolved" "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz"
   "version" "3.7.2"
 
-"bn.js@^4.0.0", "bn.js@^4.1.0", "bn.js@^4.1.1", "bn.js@^4.4.0":
-  "resolved" "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz"
-  "version" "4.11.8"
+"bn.js@^4.0.0", "bn.js@^4.1.0", "bn.js@^4.1.1", "bn.js@^4.11.9":
+  "integrity" "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA=="
+  "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
+  "version" "4.12.0"
 
 "body-parser@1.19.0":
   "resolved" "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz"
@@ -2864,7 +2866,7 @@
   dependencies:
     "fill-range" "^7.0.1"
 
-"brorand@^1.0.1":
+"brorand@^1.0.1", "brorand@^1.1.0":
   "resolved" "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz"
   "version" "1.1.0"
 
@@ -4159,8 +4161,9 @@
     "tslib" "^2.0.3"
 
 "dot-prop@^4.1.1":
-  "resolved" "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz"
-  "version" "4.2.0"
+  "integrity" "sha512-l0p4+mIuJIua0mhxGoh4a+iNL9bmeK5DvnSVQa6T0OhrVmaEa1XScX5Etc673FePCJOArq/4Pa2cLGODUWTPOQ=="
+  "resolved" "https://registry.npmjs.org/dot-prop/-/dot-prop-4.2.1.tgz"
+  "version" "4.2.1"
   dependencies:
     "is-obj" "^1.0.0"
 
@@ -4209,16 +4212,17 @@
   "version" "1.3.725"
 
 "elliptic@^6.0.0":
-  "resolved" "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz"
-  "version" "6.5.2"
+  "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
+  "resolved" "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz"
+  "version" "6.5.4"
   dependencies:
-    "bn.js" "^4.4.0"
-    "brorand" "^1.0.1"
+    "bn.js" "^4.11.9"
+    "brorand" "^1.1.0"
     "hash.js" "^1.0.0"
-    "hmac-drbg" "^1.0.0"
-    "inherits" "^2.0.1"
-    "minimalistic-assert" "^1.0.0"
-    "minimalistic-crypto-utils" "^1.0.0"
+    "hmac-drbg" "^1.0.1"
+    "inherits" "^2.0.4"
+    "minimalistic-assert" "^1.0.1"
+    "minimalistic-crypto-utils" "^1.0.1"
 
 "emittery@^0.7.1":
   "resolved" "https://registry.yarnpkg.com/emittery/-/emittery-0.7.2.tgz"
@@ -4405,7 +4409,8 @@
     "source-map" "~0.6.1"
 
 "eslint-config-react-app@^6.0.0":
-  "resolved" "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-6.0.0.tgz"
+  "integrity" "sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A=="
+  "resolved" "https://registry.npmjs.org/eslint-config-react-app/-/eslint-config-react-app-6.0.0.tgz"
   "version" "6.0.0"
   dependencies:
     "confusing-browser-globals" "^1.0.10"
@@ -4432,7 +4437,8 @@
     "string-natural-compare" "^3.0.1"
 
 "eslint-plugin-import@^2.22.0", "eslint-plugin-import@^2.22.1":
-  "resolved" "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz"
+  "integrity" "sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz"
   "version" "2.22.1"
   dependencies:
     "array-includes" "^3.1.1"
@@ -5379,7 +5385,7 @@
   "resolved" "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
 
-"hmac-drbg@^1.0.0":
+"hmac-drbg@^1.0.1":
   "resolved" "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz"
   "version" "1.0.1"
   dependencies:
@@ -5392,8 +5398,9 @@
   "version" "0.1.4"
 
 "hosted-git-info@^2.1.4":
-  "resolved" "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz"
-  "version" "2.8.5"
+  "integrity" "sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw=="
+  "resolved" "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz"
+  "version" "2.8.9"
 
 "hpack.js@^2.1.6":
   "resolved" "https://registry.yarnpkg.com/hpack.js/-/hpack.js-2.1.6.tgz"
@@ -5522,8 +5529,9 @@
     "micromatch" "^3.1.10"
 
 "http-proxy@^1.17.0":
-  "resolved" "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz"
-  "version" "1.18.0"
+  "integrity" "sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ=="
+  "resolved" "https://registry.npmjs.org/http-proxy/-/http-proxy-1.18.1.tgz"
+  "version" "1.18.1"
   dependencies:
     "eventemitter3" "^4.0.0"
     "follow-redirects" "^1.0.0"
@@ -5680,8 +5688,9 @@
   "version" "2.0.3"
 
 "ini@^1.3.5":
-  "resolved" "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz"
-  "version" "1.3.5"
+  "integrity" "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+  "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+  "version" "1.3.8"
 
 "ini@~1.3.0":
   "integrity" "sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw=="
@@ -6090,7 +6099,8 @@
     "throat" "^5.0.0"
 
 "jest-circus@26.6.0":
-  "resolved" "https://registry.yarnpkg.com/jest-circus/-/jest-circus-26.6.0.tgz"
+  "integrity" "sha512-L2/Y9szN6FJPWFK8kzWXwfp+FOR7xq0cUL4lIsdbIdwz3Vh6P1nrpcqOleSzr28zOtSHQNV9Z7Tl+KkuK7t5Ng=="
+  "resolved" "https://registry.npmjs.org/jest-circus/-/jest-circus-26.6.0.tgz"
   "version" "26.6.0"
   dependencies:
     "@babel/traverse" "^7.1.0"
@@ -6116,7 +6126,8 @@
     "throat" "^5.0.0"
 
 "jest-cli@^26.6.0":
-  "resolved" "https://registry.yarnpkg.com/jest-cli/-/jest-cli-26.6.3.tgz"
+  "integrity" "sha512-GF9noBSa9t08pSyl3CY4frMrqp+aQXFGFkf5hEPbh/pIUFYWMK6ZLTfbmadxJVcJrdRoChlWQsA2VkJcDFK8hg=="
+  "resolved" "https://registry.npmjs.org/jest-cli/-/jest-cli-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/core" "^26.6.3"
@@ -6134,7 +6145,8 @@
     "yargs" "^15.4.1"
 
 "jest-config@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/jest-config/-/jest-config-26.6.3.tgz"
+  "integrity" "sha512-t5qdIj/bCj2j7NFVHb2nFB4aUdfucDn3JRKgrZnplb8nieAirAzRSHP8uDEd+qV6ygzg9Pz4YG7UTJf94LPSyg=="
+  "resolved" "https://registry.npmjs.org/jest-config/-/jest-config-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@babel/core" "^7.1.0"
@@ -6230,7 +6242,8 @@
     "fsevents" "^2.1.2"
 
 "jest-jasmine2@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/jest-jasmine2/-/jest-jasmine2-26.6.3.tgz"
+  "integrity" "sha512-kPKUrQtc8aYwBV7CqBg5pu+tmYXlvFlSFYn18ev4gPFtrRzB15N2gW/Roew3187q2w2eHuu0MU9TJz6w0/nPEg=="
+  "resolved" "https://registry.npmjs.org/jest-jasmine2/-/jest-jasmine2-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@babel/traverse" "^7.1.0"
@@ -6298,27 +6311,17 @@
   "version" "26.0.0"
 
 "jest-resolve-dependencies@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-26.6.3.tgz"
+  "integrity" "sha512-pVwUjJkxbhe4RY8QEWzN3vns2kqyuldKpxlxJlzEYfKSvY6/bMvxoFrYYzUO1Gx28yKWN37qyV7rIoIp2h8fTg=="
+  "resolved" "https://registry.npmjs.org/jest-resolve-dependencies/-/jest-resolve-dependencies-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/types" "^26.6.2"
     "jest-regex-util" "^26.0.0"
     "jest-snapshot" "^26.6.2"
 
-"jest-resolve@*":
-  "version" "26.6.0"
-  dependencies:
-    "@jest/types" "^26.6.0"
-    "chalk" "^4.0.0"
-    "graceful-fs" "^4.2.4"
-    "jest-pnp-resolver" "^1.2.2"
-    "jest-util" "^26.6.0"
-    "read-pkg-up" "^7.0.1"
-    "resolve" "^1.17.0"
-    "slash" "^3.0.0"
-
-"jest-resolve@^26.6.2":
-  "resolved" "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-26.6.2.tgz"
+"jest-resolve@*", "jest-resolve@^26.6.2":
+  "integrity" "sha512-sOxsZOq25mT1wRsfHcbtkInS+Ek7Q8jCHUB0ZUTP0tc/c41QHriU/NunqMfCUWsL4H3MHpvQD4QR9kSYhS7UvQ=="
+  "resolved" "https://registry.npmjs.org/jest-resolve/-/jest-resolve-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@jest/types" "^26.6.2"
@@ -6331,7 +6334,8 @@
     "slash" "^3.0.0"
 
 "jest-resolve@26.6.0":
-  "resolved" "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-26.6.0.tgz"
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ=="
+  "resolved" "https://registry.npmjs.org/jest-resolve/-/jest-resolve-26.6.0.tgz"
   "version" "26.6.0"
   dependencies:
     "@jest/types" "^26.6.0"
@@ -6344,7 +6348,8 @@
     "slash" "^3.0.0"
 
 "jest-runner@^26.6.0", "jest-runner@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/jest-runner/-/jest-runner-26.6.3.tgz"
+  "integrity" "sha512-atgKpRHnaA2OvByG/HpGA4g6CSPS/1LK0jK3gATJAoptC1ojltpmVlYC3TYgdmGp+GLuhzpH30Gvs36szSL2JQ=="
+  "resolved" "https://registry.npmjs.org/jest-runner/-/jest-runner-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/console" "^26.6.2"
@@ -6369,7 +6374,8 @@
     "throat" "^5.0.0"
 
 "jest-runtime@^26.6.0", "jest-runtime@^26.6.3":
-  "resolved" "https://registry.yarnpkg.com/jest-runtime/-/jest-runtime-26.6.3.tgz"
+  "integrity" "sha512-lrzyR3N8sacTAMeonbqpnSka1dHNux2uk0qqDXVkMv2c/A3wYnvQ4EXuI013Y6+gSKSCxdaczvf4HF0mVXHRdw=="
+  "resolved" "https://registry.npmjs.org/jest-runtime/-/jest-runtime-26.6.3.tgz"
   "version" "26.6.3"
   dependencies:
     "@jest/console" "^26.6.2"
@@ -6408,7 +6414,8 @@
     "graceful-fs" "^4.2.4"
 
 "jest-snapshot@^26.6.0", "jest-snapshot@^26.6.2":
-  "resolved" "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-26.6.2.tgz"
+  "integrity" "sha512-OLhxz05EzUtsAmOMzuupt1lHYXCNib0ECyuZ/PZOx9TrZcC8vL0x+DUG3TL+GLX3yHG45e6YGjIm0XwDc3q3og=="
+  "resolved" "https://registry.npmjs.org/jest-snapshot/-/jest-snapshot-26.6.2.tgz"
   "version" "26.6.2"
   dependencies:
     "@babel/types" "^7.0.0"
@@ -6490,7 +6497,8 @@
     "supports-color" "^7.0.0"
 
 "jest@^26.0.0", "jest@26.6.0":
-  "resolved" "https://registry.yarnpkg.com/jest/-/jest-26.6.0.tgz"
+  "integrity" "sha512-jxTmrvuecVISvKFFhOkjsWRZV7sFqdSUAd1ajOKY+/QE/aLBVstsJ/dX8GczLzwiT6ZEwwmZqtCUHLHHQVzcfA=="
+  "resolved" "https://registry.npmjs.org/jest/-/jest-26.6.0.tgz"
   "version" "26.6.0"
   dependencies:
     "@jest/core" "^26.6.0"
@@ -6655,12 +6663,14 @@
   "version" "5.1.0"
 
 "kind-of@^6.0.0":
-  "resolved" "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz"
-  "version" "6.0.2"
+  "integrity" "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw=="
+  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+  "version" "6.0.3"
 
 "kind-of@^6.0.2":
-  "resolved" "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz"
-  "version" "6.0.2"
+  "integrity" "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw=="
+  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+  "version" "6.0.3"
 
 "kleur@^3.0.3":
   "resolved" "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz"
@@ -6823,20 +6833,9 @@
   "resolved" "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.5", "lodash@>=3.5 <5":
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz"
-  "version" "4.17.15"
-
-"lodash@^4.17.19":
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz"
-  "version" "4.17.21"
-
-"lodash@^4.17.21":
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz"
-  "version" "4.17.21"
-
-"lodash@^4.7.0":
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz"
+"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.21", "lodash@^4.17.5", "lodash@^4.7.0", "lodash@>=3.5 <5":
+  "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
 
 "loglevel@^1.6.8":
@@ -7061,7 +7060,7 @@
   "resolved" "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
   "version" "1.0.1"
 
-"minimalistic-crypto-utils@^1.0.0", "minimalistic-crypto-utils@^1.0.1":
+"minimalistic-crypto-utils@^1.0.1":
   "resolved" "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz"
   "version" "1.0.1"
 
@@ -7071,16 +7070,14 @@
   dependencies:
     "brace-expansion" "^1.1.7"
 
-"minimist@^1.1.1", "minimist@^1.2.0":
-  "resolved" "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz"
-  "version" "1.2.0"
-
-"minimist@^1.2.5":
-  "resolved" "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz"
+"minimist@^1.1.1", "minimist@^1.2.0", "minimist@^1.2.5":
+  "integrity" "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
   "version" "1.2.5"
 
 "minimist@0.0.8":
-  "resolved" "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz"
+  "integrity" "sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz"
   "version" "0.0.8"
 
 "minipass-collect@^1.0.2":
@@ -7158,20 +7155,9 @@
   dependencies:
     "minimist" "0.0.8"
 
-"mkdirp@^0.5.1", "mkdirp@~0.5.1":
-  "resolved" "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz"
-  "version" "0.5.1"
-  dependencies:
-    "minimist" "0.0.8"
-
-"mkdirp@^0.5.3":
-  "resolved" "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz"
-  "version" "0.5.5"
-  dependencies:
-    "minimist" "^1.2.5"
-
-"mkdirp@^0.5.5":
-  "resolved" "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz"
+"mkdirp@^0.5.1", "mkdirp@^0.5.3", "mkdirp@^0.5.5", "mkdirp@~0.5.1":
+  "integrity" "sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ=="
+  "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz"
   "version" "0.5.5"
   dependencies:
     "minimist" "^1.2.5"
@@ -7374,7 +7360,8 @@
     "osenv" "^0.1.4"
 
 "normalize-package-data@^2.3.2", "normalize-package-data@^2.5.0":
-  "resolved" "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
+  "integrity" "sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA=="
+  "resolved" "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
   "version" "2.5.0"
   dependencies:
     "hosted-git-info" "^2.1.4"
@@ -8871,7 +8858,8 @@
   "version" "0.8.3"
 
 "react-scripts@4.0.3":
-  "resolved" "https://registry.yarnpkg.com/react-scripts/-/react-scripts-4.0.3.tgz"
+  "integrity" "sha512-S5eO4vjUzUisvkIPB7jVsKtuH2HhWcASREYWHAQ1FP5HyCv3xgn+wpILAEWkmy+A+tTNbSZClhxjT3qz6g4L1A=="
+  "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-4.0.3.tgz"
   "version" "4.0.3"
   dependencies:
     "@babel/core" "7.12.3"
@@ -8944,14 +8932,16 @@
     "object-assign" "^4.1.1"
 
 "read-pkg-up@^2.0.0":
-  "resolved" "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz"
+  "integrity" "sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4="
+  "resolved" "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "find-up" "^2.0.0"
     "read-pkg" "^2.0.0"
 
 "read-pkg-up@^7.0.1":
-  "resolved" "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-7.0.1.tgz"
+  "integrity" "sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg=="
+  "resolved" "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-7.0.1.tgz"
   "version" "7.0.1"
   dependencies:
     "find-up" "^4.1.0"
@@ -8959,7 +8949,8 @@
     "type-fest" "^0.8.1"
 
 "read-pkg@^2.0.0":
-  "resolved" "https://registry.yarnpkg.com/read-pkg/-/read-pkg-2.0.0.tgz"
+  "integrity" "sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg="
+  "resolved" "https://registry.npmjs.org/read-pkg/-/read-pkg-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "load-json-file" "^2.0.0"
@@ -8967,7 +8958,8 @@
     "path-type" "^2.0.0"
 
 "read-pkg@^5.2.0":
-  "resolved" "https://registry.yarnpkg.com/read-pkg/-/read-pkg-5.2.0.tgz"
+  "integrity" "sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg=="
+  "resolved" "https://registry.npmjs.org/read-pkg/-/read-pkg-5.2.0.tgz"
   "version" "5.2.0"
   dependencies:
     "@types/normalize-package-data" "^2.4.0"
@@ -9941,8 +9933,9 @@
     "tweetnacl" "~0.14.0"
 
 "ssri@^6.0.1":
-  "resolved" "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz"
-  "version" "6.0.1"
+  "integrity" "sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q=="
+  "resolved" "https://registry.npmjs.org/ssri/-/ssri-6.0.2.tgz"
+  "version" "6.0.2"
   dependencies:
     "figgy-pudding" "^3.5.1"
 
@@ -10704,15 +10697,9 @@
     "mime-types" "^2.1.27"
     "schema-utils" "^3.0.0"
 
-"url-parse@^1.4.3":
-  "resolved" "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz"
-  "version" "1.4.7"
-  dependencies:
-    "querystringify" "^2.1.1"
-    "requires-port" "^1.0.0"
-
-"url-parse@^1.5.1":
-  "resolved" "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz"
+"url-parse@^1.4.3", "url-parse@^1.5.1":
+  "integrity" "sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q=="
+  "resolved" "https://registry.npmjs.org/url-parse/-/url-parse-1.5.1.tgz"
   "version" "1.5.1"
   dependencies:
     "querystringify" "^2.1.1"
@@ -11250,8 +11237,9 @@
   "version" "4.0.2"
 
 "y18n@^4.0.0":
-  "resolved" "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz"
-  "version" "4.0.0"
+  "integrity" "sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ=="
+  "resolved" "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz"
+  "version" "4.0.3"
 
 "yallist@^3.0.0":
   "integrity" "sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A=="
