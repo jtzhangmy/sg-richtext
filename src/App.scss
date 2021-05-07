@@ -32,6 +32,8 @@
         height: 25px;
         line-height: 25px;
         color: green;
+        position: relative;
+        top: -1px;
 
         .s {
             background: green;
@@ -42,8 +44,11 @@
     }
 
     .input-node {
+        display: inline-block;
         width: 0;
+        height: 18px;
         position: relative;
+        top: -1px;
 
         // 启动输入法时，宽度可自动拉伸
         &.composition {
@@ -57,10 +62,13 @@
 
         .input {
             position: absolute;
+            top: 0;
+            left: 0;
             display: inline-block;
             min-width: 1px;
             width: auto;
-            height: 25px;
+            height: 20px;
+            line-height: 20px;
             font-size: 18px;
             border: 0;
             padding: 0;

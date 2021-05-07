@@ -62,10 +62,11 @@ class RichText extends Component {
         // console.error(idx, clientX, offsetLeft);
     }
 
+    // 输入按键
     onInputKeyDown(e) {
+        let { inputIdx, textList } = this.state;
         const { keyCode, code, target } = e;
         console.error(keyCode, code);
-        let { inputIdx, textList } = this.state;
         const { left, top } = target.getBoundingClientRect();
         const itemList = this.itemList;
         const textListLen = textList.length;
@@ -103,6 +104,7 @@ class RichText extends Component {
                     const item = itemList[i];
                     if (!item) continue;
                     const { left: itemLeft, top: itemTop } = item.getBoundingClientRect();
+                    console.error(222, itemTop, top)
                     if (itemTop < top && itemLeft <= left) {
                         [inputIdx, textList] = this.moveInput(i);
                         break;
@@ -117,6 +119,7 @@ class RichText extends Component {
                     if (!item) continue;
                     const { left: itemLeft, top: itemTop } = item.getBoundingClientRect();
                     if (itemTop > top) {
+                        console.error(111, itemTop, top)
                         if (itemLeft >= left - 20) {
                             [inputIdx, textList] = this.moveInput(i);
                             hasResult = true;
@@ -136,6 +139,7 @@ class RichText extends Component {
         return [idx, textList];
     }
 
+    // input更改
     onInputChange(e) {
         // console.error('change', this.state.composition, e.target.innerText);
         const { composition, inputIdx, textList } = this.state;
@@ -153,6 +157,7 @@ class RichText extends Component {
         }
     }
 
+    // input 失焦
     onInputBlur() {
         this.setState({ focus: false });
     }
@@ -183,6 +188,7 @@ class RichText extends Component {
         this.inputRef.innerText = '';
     }
 
+    // 粘贴
     onPaste(e) {
         e.preventDefault(); // 阻止粘贴
         const { inputIdx, textList } = this.state;
@@ -251,7 +257,7 @@ class RichText extends Component {
                                         onCompositionEnd={this.onInputCompositionEnd.bind(this)}
                                         onPaste={this.onPaste.bind(this)}
                                         onBlur={this.onInputBlur.bind(this)}
-                                    ></span>
+                                    />
                                 </b>
                             );
                         default:
